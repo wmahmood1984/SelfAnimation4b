@@ -1,0 +1,98 @@
+#perspective {
+      
+  }
+  
+  body{
+
+    background-image: url('./background.jpg');
+  }
+  #container {
+    width: 500px;
+    height: 500px;
+    
+    
+    transform-style: preserve-3d;
+  }
+  
+  #child1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:black;}
+
+    #child2 {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: yellow;}
+  
+  #child3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color: green;
+    transform-style: preserve-3d;
+  }
+
+  #child4 {
+    
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color:blue;
+    transform-style: preserve-3d;
+  }
+
+  #child5 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color:lightblue;
+    transform-style: preserve-3d;
+  }
+
+  #child6 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color: grey;
+    transform-style: preserve-3d;
+  }
+
+  #child7 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color:lightsalmon;
+    transform-style: preserve-3d;
+  }
+
+  #child8 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color: lightgreen;
+    transform-style: preserve-3d;
+  }
+
+  #child9 {
+      display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    background-color: darkblue;
+    transform-style: preserve-3d;
+  }
+
+  .wrapper {
+  
+    background-image: url(./2927262.jpg);
+    overflow: hidden;
+    position: relative;
+  }
